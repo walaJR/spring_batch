@@ -12,7 +12,7 @@ Como input tenemos 3 archivos CSV base. La ejecución es la siguiente:
 
 
 Como dato extra, las versiones de las tecnologías ocupadas son:
-- Java y Maven
+- Java 21 y Maven
 - Springboot 3.5.4
 - Spring Batch 5.2
 - Base de Datos MySQL contenida en Docker
