@@ -1,7 +1,6 @@
 El microservicio:
 Es un microservicio creado con spring batch cuya función es leer, procesar y escribir archivos CSV mediante chunks y multi-hilos.
-
-Todo el proceso de batch es mediante chunks y multi-hilos. Esto nos permite realizar múltiples steps de un job al mismo tiempo. Esto se traduce en mayor eficacia y mayor velocidad en el procesamiento de los registros.
+Esto nos permite realizar múltiples steps de un job al mismo tiempo. Esto se traduce en mayor eficacia y mayor velocidad en el procesamiento de los registros.
 
 Como input tenemos 3 archivos CSV base. La ejecución es la siguiente:
 - Chunks establecidos en 50. Este número es recomendado para para registros >= 500 y <= 1000
